@@ -1,0 +1,9 @@
+In fastapi order matters, fastapi fetches responses in that
+order
+if both the method refrences to the same path, fastapi sees 
+whats the method and returns the first refrence
+
+posts can be initiated in the same ways as written in get,
+usually it's a json response call
+
+see code for better understanding
